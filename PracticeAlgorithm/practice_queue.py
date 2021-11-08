@@ -13,10 +13,12 @@ print(data_que.qsize())
 print(data_que.get())
 print(data_que.qsize())
 
-# queue를 list()로 구현해보기
+
+# queue list()로 구현해보기
 queue_list = list()
 
-# 새로운 요소 넣는 것 = enqueue, 요소 제거하는 것 = dequeue (FIFO가 기본)
+
+# 새로운 요소 넣는 것 = enqueue, 요소 제거하는 것 = dequeue (FIFO 기본)
 def enqueue(data):
     queue_list.append(data)
 
@@ -33,4 +35,6 @@ for index in range(10):
 
 print(queue_list)
 print(dequeue())
+print(queue_list)
+queue_list.pop()
 print(queue_list)
