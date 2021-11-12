@@ -3,7 +3,7 @@
 # list의 길이가 상당히 긴 경우 Bisect는 Heap에 비해 정렬 속도가 빠름
 
 import random
-import bisect
+import practice_bisect
 
 list_sample = []
 for i in range(1, 15):
